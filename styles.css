@@ -64,7 +64,6 @@ img {
 }
 
 .tarif {
-
     display: flex;
     flex-direction: column;
     flex-grow: 2;
@@ -90,11 +89,6 @@ img {
 
 /* Buttons */
 
-.buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 .payment {
     color: var(--very-pale-blue);
     background-color: var(--bright-blue);
@@ -105,12 +99,11 @@ img {
     outline: none;
     border: none;
     font-weight: 600;
-
 }
 
 .payment:active {
     background-color: var(--bright-blue);
-    transform: translateY(2px);
+    transform: translateY(3px);
 }
 
 .cancel {
@@ -120,7 +113,6 @@ img {
    font-weight: 500;
    margin-top: 0;
    align-self: center;
-
 }
 
 
