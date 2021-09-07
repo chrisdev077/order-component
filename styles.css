@@ -30,6 +30,7 @@ body {
     font-size: var(--font-size);
 }
 
+
 .card-content {
     display: flex;
     flex-direction: column;
@@ -39,39 +40,12 @@ body {
     flex-grow: 2;
 }
 
+/* illustration hero image */
 img {
     border-radius: 12px 12px 0px 0px;
 }
 
-.subscription { 
-    display: flex;
-    justify-content: space-around; 
-    align-items: center ;
-    background-color: var(--very-pale-blue);
-    border-radius: 0.5em;
-}
-
-
-.payment {
-    color: var(--very-pale-blue);
-    background-color: var(--bright-blue);
-    box-shadow: 0px 20px 2px 5px var(--very-pale-blue);
-    border-radius: 0.5em;
-    height: 3em;
-    border: none;
-    font-weight: 600;
-    
-
-}
-
-.cancel {
-   text-decoration: none; 
-   color: var(--desaturated-blue);
-   text-align: center;
-   font-weight: 500;
-   margin-top: 0;
-}
-
+/* Title and description */
 .description {
     text-align: center;
 }
@@ -80,8 +54,77 @@ img {
     color: var(--desaturated-blue);
 }
 
+/* Subscription */
+.subscription { 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center ;
+    background-color: var(--very-pale-blue);
+    border-radius: 0.5em;
+}
+
+.tarif {
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.tarif > h3{
+    margin-bottom: 0;
+}
+
+.tarif > p{
+    margin-top: 0;
+    color: var(--desaturated-blue);
+}
+
+.change {
+    margin-right: 1em;
+}
+
+.icon {
+    margin: 0 1em;
+}
+
+
+/* Buttons */
+
 .buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.payment {
+    color: var(--very-pale-blue);
+    background-color: var(--bright-blue);
+    box-shadow: 0px 20px 2px 5px var(--very-pale-blue);
+    border-radius: 0.5em;
+    cursor: pointer;
+    height: 3em;
+    outline: none;
+    border: none;
+    font-weight: 600;
+
+}
+
+.payment:active {
+    background-color: var(--bright-blue);
+    transform: translateY(2px);
+}
+
+.cancel {
+   text-decoration: none; 
+   color: var(--desaturated-blue);
+   text-align: center;
+   font-weight: 500;
+   margin-top: 0;
+   align-self: center;
+
+}
+
+
+
+
+
+
