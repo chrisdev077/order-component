@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(/Challenge-1/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-image: url("/order-summary-component-main/images/pattern-background-desktop.svg");
     background-color: var(--pale-blue);
     background-repeat: no-repeat;
     background-size: contain;
